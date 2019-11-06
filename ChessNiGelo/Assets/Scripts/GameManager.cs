@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using Managers_Controllers;
 
 public class GameManager : IManager
@@ -35,4 +36,10 @@ public class GameManager : IManager
     //MoveTroop(TroopID,TileID)
 
     //
+=======
+
+public class GameManager : MonoBehaviour
+{
+    
+>>>>>>> Added initial project
 }

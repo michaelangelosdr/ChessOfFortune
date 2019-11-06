@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using System.Linq;
 
 namespace Managers_Controllers
@@ -87,4 +88,20 @@ namespace Managers_Controllers
         }
 
     }
+=======
+
+public class TileManager : MonoBehaviour
+{
+
+    [SerializeField]
+    private int boardSize;
+
+    public void Init()
+    {
+        //Create the board
+    }
+
+
+
+>>>>>>> Added initial project
 }
