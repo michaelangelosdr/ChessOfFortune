@@ -13,7 +13,11 @@ GameObject:
   - component: {fileID: 7740584238867205380}
   - component: {fileID: 7740584238867205383}
   - component: {fileID: 7740584238867205379}
+<<<<<<< HEAD
   m_Layer: 8
+=======
+  m_Layer: 0
+>>>>>>> Included Instantiation of the board
   m_Name: ChessCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,4 +111,7 @@ MonoBehaviour:
   BlackMat: {fileID: 2100000, guid: a09ca0647bf28d04799c321e61ad01a1, type: 2}
   WhiteMat: {fileID: 2100000, guid: 822658b939ada454dace8b695f7bee17, type: 2}
   GameRenderer: {fileID: 7740584238867205380}
+<<<<<<< HEAD
   currentToken: {fileID: 0}
+=======
+>>>>>>> Included Instantiation of the board

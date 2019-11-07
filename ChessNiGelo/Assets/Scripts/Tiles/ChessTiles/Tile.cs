@@ -6,6 +6,7 @@ public class Tile : MonoBehaviour
 {
     //would be the base class of game tiles.
     protected string ID;
+<<<<<<< HEAD
     public Point Position;
     
 }
@@ -30,4 +31,8 @@ public struct Point
     {
         return a.X != b.X && a.Y != b.Y;
     }
+=======
+
+    
+>>>>>>> Included Instantiation of the board
 }

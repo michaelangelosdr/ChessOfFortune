@@ -40,6 +40,23 @@ public class GameManager : IManager
 
 public class GameManager : MonoBehaviour
 {
+
+
+    [SerializeField]
+    TileManager t_manager;
+
+
+    private void Start()
+    {
+        t_manager.Init();
+    }
+
     
+<<<<<<< HEAD
 >>>>>>> Added initial project
+=======
+
+    //TroopManager.MoveTroop(TroopID,TileID)
+
+>>>>>>> Included Instantiation of the board
 }

@@ -13,6 +13,7 @@ public class ChessTile : Tile, IContain
     [SerializeField]
     Renderer GameRenderer;
 
+<<<<<<< HEAD
     [SerializeField]
     private ChessToken currentToken;
     Color tmp = new Color();
@@ -41,11 +42,17 @@ public class ChessTile : Tile, IContain
         return this;
     }
 
+=======
+>>>>>>> Included Instantiation of the board
     public void SetColorOfTile(bool isBlack)
     {
         if (isBlack)
         {
+<<<<<<< HEAD
             GameRenderer.material.color = Color.gray;
+=======
+            GameRenderer.material = BlackMat;
+>>>>>>> Included Instantiation of the board
         }
         else
         {
@@ -64,6 +71,13 @@ public class ChessTile : Tile, IContain
         return this.ID;
     }
 
+<<<<<<< HEAD
+=======
+    public string containsObject()
+    {
+        return "HEHE";
+    }
+>>>>>>> Included Instantiation of the board
 
     public void SetTilePosition(Vector3 pos)
     {

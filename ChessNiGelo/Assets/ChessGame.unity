@@ -149,7 +149,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 1
+=======
+  m_RootOrder: 2
+>>>>>>> Included Instantiation of the board
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &122630677
 MonoBehaviour:
@@ -163,7 +167,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936544d5d752a4b48a067a1adc7cb72b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   type: 0
+=======
+>>>>>>> Included Instantiation of the board
   btype: 0
   boardSize: 8
   TilesPrefab:
@@ -171,6 +178,7 @@ MonoBehaviour:
   BoardText: {fileID: 4379929522728369109, guid: 7d45b039531cfaf429c0f99e30ef4292,
     type: 3}
   TextHolder: {fileID: 620824874}
+<<<<<<< HEAD
 --- !u!1 &156597211
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,6 +211,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Included Instantiation of the board
 --- !u!1 &383833774
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,7 +225,11 @@ GameObject:
   - component: {fileID: 383833776}
   - component: {fileID: 383833775}
   m_Layer: 5
+<<<<<<< HEAD
   m_Name: UICamera
+=======
+  m_Name: Camera
+>>>>>>> Included Instantiation of the board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -255,7 +269,11 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
+<<<<<<< HEAD
   orthographic: 1
+=======
+  orthographic: 0
+>>>>>>> Included Instantiation of the board
   orthographic size: 5
   m_Depth: 1
   m_CullingMask:
@@ -280,6 +298,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383833774}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: -0.60571647}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -289,6 +308,17 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.33425474, y: 11.60088}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 3.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2.4, y: 9.9}
+>>>>>>> Included Instantiation of the board
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &453816040
@@ -382,7 +412,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 5
+>>>>>>> Included Instantiation of the board
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -446,7 +480,11 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
+<<<<<<< HEAD
     m_Bits: 1815
+=======
+    m_Bits: 23
+>>>>>>> Included Instantiation of the board
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -466,10 +504,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559134161}
   m_LocalRotation: {x: -0.24184473, y: 0.66446304, z: -0.24184473, w: -0.66446304}
+<<<<<<< HEAD
   m_LocalPosition: {x: 9.265745, y: 8.70088, z: -0.40571642}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 156597212}
+=======
+  m_LocalPosition: {x: 12, y: 7, z: 3.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> Included Instantiation of the board
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 40, y: 270, z: 0}
 --- !u!1 &565778662
@@ -482,7 +527,10 @@ GameObject:
   m_Component:
   - component: {fileID: 565778664}
   - component: {fileID: 565778663}
+<<<<<<< HEAD
   - component: {fileID: 565778665}
+=======
+>>>>>>> Included Instantiation of the board
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -502,7 +550,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b131498a9870d934eb399378c52c80ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   type: 0
+=======
+>>>>>>> Included Instantiation of the board
   t_manager: {fileID: 122630677}
 --- !u!4 &565778664
 Transform:
@@ -516,6 +567,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &565778665
@@ -534,6 +586,10 @@ MonoBehaviour:
   - {fileID: 122630677}
   - {fileID: 2128987206}
   - {fileID: 565778663}
+=======
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Included Instantiation of the board
 --- !u!1 &620824874
 GameObject:
   m_ObjectHideFlags: 0
@@ -562,6 +618,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
 --- !u!1 &809823482
@@ -687,6 +744,10 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
+>>>>>>> Included Instantiation of the board
 --- !u!1 &1080578198
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,7 +812,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 6
+>>>>>>> Included Instantiation of the board
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337410205
 GameObject:
@@ -838,6 +903,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337410205}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+<<<<<<< HEAD
   m_LocalPosition: {x: -0.04015112, y: 0.04510045, z: -0.056772646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1028,3 +1094,11 @@ MonoBehaviour:
   - {fileID: 4513976560805821640, guid: b552aa8942e903d4f8e0d2926f905b96, type: 3}
   - {fileID: 5849163606058308706, guid: a4d82dd69a851d547ba0723a069b4cc0, type: 3}
   - {fileID: 5807937562537780609, guid: 36b1e72f5d452c24b83f290714212ab0, type: 3}
+=======
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+>>>>>>> Included Instantiation of the board

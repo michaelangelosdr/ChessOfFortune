@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using Managers_Controllers;
 
 public class ChessToken : BoardToken, IMove
@@ -35,4 +36,20 @@ public class ChessToken : BoardToken, IMove
     }
 
     
+=======
+
+public class ChessToken : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+>>>>>>> Included Instantiation of the board
 }
