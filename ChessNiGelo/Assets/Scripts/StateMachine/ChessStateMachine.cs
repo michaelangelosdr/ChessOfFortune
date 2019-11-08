@@ -15,8 +15,13 @@ public class ChessStateMachine : StateMachine
         StatesList = new List<IState>();
 
         StatesList.Add(new BOARD_INIT_STATE(Managers[(int)ManagerType.TILEMANAGER],this));
+<<<<<<< HEAD
         StatesList.Add(new BOARD_SETUP_STATE(Managers[(int)ManagerType.TILEMANAGER],Managers[(int)ManagerType.CHESSMANAGER],this));
         StatesList.Add(new WHITE_PIECE_IDLE_STATE(Managers[(int)ManagerType.TILEMANAGER],Managers[(int)ManagerType.CHESSMANAGER], this));
+=======
+        StatesList.Add(new BOARD_SETUP_STATE(Managers[(int)ManagerType.CHESSMANAGER],this));
+
+>>>>>>> Inclded instantiation of Pawns
         ChangeState(States.BOARD_INITIALIZIATION_STATE);
     }
 
@@ -37,7 +42,11 @@ public class ChessStateMachine : StateMachine
                 Debug.Log("Exiting state of" + CurrentState.ToString());
                 CurrentState.Exit();
             }
+<<<<<<< HEAD
             //Debug.Log("Changing state to" + nextState.ToString());
+=======
+            Debug.Log("Changing state to" + nextState.ToString());
+>>>>>>> Inclded instantiation of Pawns
             CurrentState = StatesList[(int)nextState];
             CurrentState.Init();
             return true;

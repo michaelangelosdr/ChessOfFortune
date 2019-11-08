@@ -14,6 +14,7 @@ public class ChessTile : Tile, IContain
     Renderer GameRenderer;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     [SerializeField]
     private ChessToken currentToken;
     Color tmp = new Color();
@@ -44,6 +45,11 @@ public class ChessTile : Tile, IContain
 
 =======
 >>>>>>> Included Instantiation of the board
+=======
+
+    public TileObject CurrentObject { get { return CurrentObject; } set { CurrentObject = value; } }
+
+>>>>>>> Inclded instantiation of Pawns
     public void SetColorOfTile(bool isBlack)
     {
         if (isBlack)
@@ -72,12 +78,15 @@ public class ChessTile : Tile, IContain
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     public string containsObject()
     {
         return "HEHE";
     }
 >>>>>>> Included Instantiation of the board
+=======
+>>>>>>> Inclded instantiation of Pawns
 
     public void SetTilePosition(Vector3 pos)
     {

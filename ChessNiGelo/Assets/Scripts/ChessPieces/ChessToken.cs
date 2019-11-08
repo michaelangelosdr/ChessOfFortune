@@ -38,18 +38,18 @@ public class ChessToken : BoardToken, IMove
     
 =======
 
-public class ChessToken : MonoBehaviour
+public class ChessToken : BoardToken, IMove
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public ChessTokenType Type;
 
-    // Update is called once per frame
-    void Update()
+    public virtual void Move()
     {
-        
+        Debug.LogError("MOVE NOT IMPLEMENTED");
     }
+<<<<<<< HEAD
 >>>>>>> Included Instantiation of the board
+=======
+
+    
+>>>>>>> Inclded instantiation of Pawns
 }

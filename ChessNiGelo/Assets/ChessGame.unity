@@ -168,9 +168,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   type: 0
 =======
 >>>>>>> Included Instantiation of the board
+=======
+  type: 0
+>>>>>>> Inclded instantiation of Pawns
   btype: 0
   boardSize: 8
   TilesPrefab:
@@ -179,6 +183,9 @@ MonoBehaviour:
     type: 3}
   TextHolder: {fileID: 620824874}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Inclded instantiation of Pawns
 --- !u!1 &156597211
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,8 +218,80 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> Included Instantiation of the board
+=======
+--- !u!1001 &240383510
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 87493190188157204, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_Name
+      value: TestPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce9ea5d4e45de114386349c936386611, type: 3}
+>>>>>>> Inclded instantiation of Pawns
 --- !u!1 &383833774
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,10 +305,14 @@ GameObject:
   - component: {fileID: 383833775}
   m_Layer: 5
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: UICamera
 =======
   m_Name: Camera
 >>>>>>> Included Instantiation of the board
+=======
+  m_Name: UICamera
+>>>>>>> Inclded instantiation of Pawns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -299,6 +382,7 @@ RectTransform:
   m_GameObject: {fileID: 383833774}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: -0.60571647}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -310,15 +394,22 @@ RectTransform:
   m_AnchoredPosition: {x: -0.33425474, y: 11.60088}
 =======
   m_LocalPosition: {x: 0, y: 0, z: 3.3}
+=======
+  m_LocalPosition: {x: 0, y: 0, z: -0.60571647}
+>>>>>>> Inclded instantiation of Pawns
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 156597212}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 2.4, y: 9.9}
 >>>>>>> Included Instantiation of the board
+=======
+  m_AnchoredPosition: {x: -0.33425474, y: 11.60088}
+>>>>>>> Inclded instantiation of Pawns
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &453816040
@@ -505,6 +596,7 @@ Transform:
   m_GameObject: {fileID: 559134161}
   m_LocalRotation: {x: -0.24184473, y: 0.66446304, z: -0.24184473, w: -0.66446304}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 9.265745, y: 8.70088, z: -0.40571642}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -515,6 +607,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 >>>>>>> Included Instantiation of the board
+=======
+  m_LocalPosition: {x: 9.265745, y: 8.70088, z: -0.40571642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 156597212}
+>>>>>>> Inclded instantiation of Pawns
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 40, y: 270, z: 0}
 --- !u!1 &565778662
@@ -528,9 +626,13 @@ GameObject:
   - component: {fileID: 565778664}
   - component: {fileID: 565778663}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 565778665}
 =======
 >>>>>>> Included Instantiation of the board
+=======
+  - component: {fileID: 565778665}
+>>>>>>> Inclded instantiation of Pawns
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -551,9 +653,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   type: 0
 =======
 >>>>>>> Included Instantiation of the board
+=======
+  type: 0
+>>>>>>> Inclded instantiation of Pawns
   t_manager: {fileID: 122630677}
 --- !u!4 &565778664
 Transform:
@@ -589,7 +695,26 @@ MonoBehaviour:
 =======
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 >>>>>>> Included Instantiation of the board
+=======
+--- !u!114 &565778665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565778662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c76811045939f469870c66bc4516cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Managers:
+  - {fileID: 122630677}
+  - {fileID: 2128987206}
+  - {fileID: 565778663}
+>>>>>>> Inclded instantiation of Pawns
 --- !u!1 &620824874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,4 +1226,122 @@ MonoBehaviour:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 >>>>>>> Included Instantiation of the board
+=======
+--- !u!1 &1743290378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1743290379}
+  m_Layer: 0
+  m_Name: EnemyPieces
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1743290379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743290378}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2128987205}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1807146380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1807146381}
+  m_Layer: 0
+  m_Name: PlayerPieces
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1807146381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807146380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2128987205}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2128987204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2128987205}
+  - component: {fileID: 2128987206}
+  m_Layer: 0
+  m_Name: ChessManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2128987205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128987204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1743290379}
+  - {fileID: 1807146381}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2128987206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128987204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858fbc542d731da46b7b2c3ccf164797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  WhitePieces: {fileID: 1807146381}
+  BlackPieces: {fileID: 1743290379}
+  tokens:
+  - {fileID: 6620761642377200650, guid: 5675a424b24b14f49a39cf32e25d0f5a, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+>>>>>>> Inclded instantiation of Pawns

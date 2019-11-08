@@ -13,10 +13,17 @@ namespace Managers_Controllers
         [SerializeField]
         Transform BlackPieces;
 
+<<<<<<< HEAD
         [SerializeField]
         List<ChessToken> tokens;
 
 
+=======
+
+        [SerializeField]
+        List<ChessToken> tokens;
+
+>>>>>>> Inclded instantiation of Pawns
         // Start is called before the first frame update
         void Start()
         {
@@ -41,6 +48,7 @@ namespace Managers_Controllers
                 piece.Move();
                 //Move
             }
+<<<<<<< HEAD
         }
 
         //================ CHESS OBJECT SETTER ==============================
@@ -56,6 +64,19 @@ namespace Managers_Controllers
 
 
         private void SetPawns(ChessPlayer player, Dictionary<Point,ChessTile> grid)
+=======
+
+        }
+
+        public void SetallPieces()
+        {
+            SetPawns(ChessPlayer.WHITE);
+            SetPawns(ChessPlayer.BLACK);
+        }
+
+
+        private void SetPawns(ChessPlayer player)
+>>>>>>> Inclded instantiation of Pawns
         {
             for (int x = 0; x < 8; x++)
             {
@@ -63,6 +84,7 @@ namespace Managers_Controllers
                 if(player == ChessPlayer.WHITE)
                 {
                     pawn = Instantiate(tokens[(int)ChessTokenType.PAWN], WhitePieces) as PawnToken;
+<<<<<<< HEAD
                     grid[new Point(6, x)].Current_Token = pawn;
                 }
                 else if(player == ChessPlayer.BLACK)
@@ -70,12 +92,19 @@ namespace Managers_Controllers
                     pawn = Instantiate(tokens[(int)ChessTokenType.PAWN], BlackPieces) as PawnToken;
                     grid[new Point(1, x)].Current_Token = pawn;
                     
+=======
+                }
+                else if(player == ChessPlayer.BLACK)
+                {
+                    pawn = Instantiate(tokens[(int)ChessTokenType.PAWN], BlackPieces) as PawnToken; 
+>>>>>>> Inclded instantiation of Pawns
                 }
                 pawn.Initialize(player);
                 pawn.transform.localPosition = new Vector3(0, 0, (x * 1));
             }
         }
 
+<<<<<<< HEAD
         private void SetRook(ChessPlayer player, Dictionary<Point, ChessTile> grid)
         {
             RookToken rook = null;
@@ -179,6 +208,11 @@ namespace Managers_Controllers
                 grid[new Point(0, 3)].Current_Token = King;
             }
            King.Initialize(player);
+=======
+        private void SetRook(ChessPlayer player)
+        {
+
+>>>>>>> Inclded instantiation of Pawns
         }
 
     }

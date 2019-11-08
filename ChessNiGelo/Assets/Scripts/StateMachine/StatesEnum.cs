@@ -1,5 +1,6 @@
 ﻿public enum States
 {
+<<<<<<< HEAD
     //BOARD_GAME CHECK // Checks which game to be played
     BOARD_INITIALIZIATION_STATE =0, //Create board
     BOARD_SETUP_STATE = 1, //Instantiate Stuff on the board 
@@ -11,4 +12,9 @@
     //AI States
 
     
+=======
+    BOARD_INITIALIZIATION_STATE =0,
+    BOARD_SETUP_STATE = 1,
+
+>>>>>>> Inclded instantiation of Pawns
 }

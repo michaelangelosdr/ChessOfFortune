@@ -5,6 +5,7 @@ using UnityEngine;
 public class BoardToken : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     protected string TokenID;
 
     public virtual void SetID(string name)
@@ -17,15 +18,20 @@ public class BoardToken : MonoBehaviour
     {
         
     }
+=======
+    protected string TokenID;
+>>>>>>> Inclded instantiation of Pawns
 
-    // Update is called once per frame
-    void Update()
+    public virtual void SetID(string name)
     {
-        
+        Debug.Log("Added ID");
     }
+<<<<<<< HEAD
 
     //A board token should be able to move
     //<IMove>
     //
 >>>>>>> Included Instantiation of the board
+=======
+>>>>>>> Inclded instantiation of Pawns
 }

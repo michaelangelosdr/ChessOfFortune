@@ -1,6 +1,7 @@
 ﻿public enum ChessTokenType
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     PAWN,
     ROOK,
     BISHOP,
@@ -10,4 +11,12 @@
 =======
 
 >>>>>>> Included Instantiation of the board
+=======
+    PAWN,
+    ROOK,
+    HORSE,
+    BISHOP,
+    QUEEN,
+    KING
+>>>>>>> Inclded instantiation of Pawns
 }
