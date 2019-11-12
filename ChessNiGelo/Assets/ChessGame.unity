@@ -150,10 +150,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 1
 =======
   m_RootOrder: 2
 >>>>>>> Included Instantiation of the board
+=======
+  m_RootOrder: 1
+>>>>>>> Included new IDLE state in which the player can now select a spot
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &122630677
 MonoBehaviour:
@@ -218,6 +222,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> Included Instantiation of the board
@@ -292,6 +297,8 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce9ea5d4e45de114386349c936386611, type: 3}
 >>>>>>> Inclded instantiation of Pawns
+=======
+>>>>>>> Included new IDLE state in which the player can now select a spot
 --- !u!1 &383833774
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,10 +360,14 @@ Camera:
   far clip plane: 1000
   field of view: 60
 <<<<<<< HEAD
+<<<<<<< HEAD
   orthographic: 1
 =======
   orthographic: 0
 >>>>>>> Included Instantiation of the board
+=======
+  orthographic: 1
+>>>>>>> Included new IDLE state in which the player can now select a spot
   orthographic size: 5
   m_Depth: 1
   m_CullingMask:
@@ -504,10 +515,14 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 4
 =======
   m_RootOrder: 5
 >>>>>>> Included Instantiation of the board
+=======
+  m_RootOrder: 4
+>>>>>>> Included new IDLE state in which the player can now select a spot
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -572,10 +587,14 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Bits: 1815
 =======
     m_Bits: 23
 >>>>>>> Included Instantiation of the board
+=======
+    m_Bits: 1815
+>>>>>>> Included new IDLE state in which the player can now select a spot
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -674,6 +693,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &565778665
@@ -694,6 +714,9 @@ MonoBehaviour:
   - {fileID: 565778663}
 =======
   m_RootOrder: 3
+=======
+  m_RootOrder: 2
+>>>>>>> Included new IDLE state in which the player can now select a spot
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
 >>>>>>> Included Instantiation of the board
@@ -743,6 +766,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
@@ -873,6 +897,133 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
 >>>>>>> Included Instantiation of the board
+=======
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
+--- !u!1 &809823482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 809823483}
+  - component: {fileID: 809823484}
+  m_Layer: 0
+  m_Name: Directional Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &809823483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809823482}
+  m_LocalRotation: {x: 0.7351304, y: -0.25881127, z: 0.001996476, w: 0.6265748}
+  m_LocalPosition: {x: 8.879999, y: 1.8500001, z: -0.056772646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 955221347}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 67.259, y: -123.756004, z: -102.07101}
+--- !u!108 &809823484
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809823482}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 0.75
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &955221346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955221347}
+  m_Layer: 0
+  m_Name: Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955221347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955221346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04015112, y: 2.9548995, z: 0.056772646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1337410207}
+  - {fileID: 809823483}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> Included new IDLE state in which the player can now select a spot
 --- !u!1 &1080578198
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,10 +1089,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 5
 =======
   m_RootOrder: 6
 >>>>>>> Included Instantiation of the board
+=======
+  m_RootOrder: 5
+>>>>>>> Included new IDLE state in which the player can now select a spot
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1337410205
 GameObject:
@@ -1028,6 +1183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337410205}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_LocalPosition: {x: -0.04015112, y: 0.04510045, z: -0.056772646}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1221,10 +1377,13 @@ MonoBehaviour:
   - {fileID: 5807937562537780609, guid: 36b1e72f5d452c24b83f290714212ab0, type: 3}
 =======
   m_LocalPosition: {x: 0, y: 3, z: 0}
+=======
+  m_LocalPosition: {x: -0.04015112, y: 0.04510045, z: -0.056772646}
+>>>>>>> Included new IDLE state in which the player can now select a spot
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 955221347}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 <<<<<<< HEAD
 >>>>>>> Included Instantiation of the board
@@ -1238,7 +1397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1743290379}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: EnemyPieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1253,7 +1412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743290378}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2128987205}
@@ -1268,7 +1427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1807146381}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PlayerPieces
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1289,6 +1448,75 @@ Transform:
   m_Father: {fileID: 2128987205}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1887231610
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 87493190188157204, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_Name
+      value: TestPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645066466472709258, guid: ce9ea5d4e45de114386349c936386611,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce9ea5d4e45de114386349c936386611, type: 3}
 --- !u!1 &2128987204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,7 +1548,7 @@ Transform:
   - {fileID: 1743290379}
   - {fileID: 1807146381}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2128987206
 MonoBehaviour:
@@ -1334,14 +1562,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858fbc542d731da46b7b2c3ccf164797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   WhitePieces: {fileID: 1807146381}
   BlackPieces: {fileID: 1743290379}
   tokens:
   - {fileID: 6620761642377200650, guid: 5675a424b24b14f49a39cf32e25d0f5a, type: 3}
+<<<<<<< HEAD
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
 >>>>>>> Inclded instantiation of Pawns
+=======
+  - {fileID: 2853249581626443817, guid: bc63f048a573f624993cfc5d48f8443c, type: 3}
+  - {fileID: 3101356064822404670, guid: b6f00af072512a74ba0c78cc10c8dcc5, type: 3}
+  - {fileID: 4513976560805821640, guid: b552aa8942e903d4f8e0d2926f905b96, type: 3}
+  - {fileID: 5849163606058308706, guid: a4d82dd69a851d547ba0723a069b4cc0, type: 3}
+  - {fileID: 5807937562537780609, guid: 36b1e72f5d452c24b83f290714212ab0, type: 3}
+>>>>>>> Included new IDLE state in which the player can now select a spot

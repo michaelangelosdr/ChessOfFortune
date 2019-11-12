@@ -14,6 +14,7 @@ TagManager:
   - 
   - 
 <<<<<<< HEAD
+<<<<<<< HEAD
   - BoardTiles
   - ChessPieces
   - Environment
@@ -22,6 +23,11 @@ TagManager:
   - 
   - 
 >>>>>>> Added initial project
+=======
+  - BoardTiles
+  - ChessPieces
+  - Environment
+>>>>>>> Included new IDLE state in which the player can now select a spot
   - 
   - 
   - 

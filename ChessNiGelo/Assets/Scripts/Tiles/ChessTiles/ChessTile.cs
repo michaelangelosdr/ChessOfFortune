@@ -15,6 +15,9 @@ public class ChessTile : Tile, IContain
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Included new IDLE state in which the player can now select a spot
     [SerializeField]
     private ChessToken currentToken;
     Color tmp = new Color();
@@ -43,6 +46,7 @@ public class ChessTile : Tile, IContain
         return this;
     }
 
+<<<<<<< HEAD
 =======
 >>>>>>> Included Instantiation of the board
 =======
@@ -50,15 +54,21 @@ public class ChessTile : Tile, IContain
     public TileObject CurrentObject { get { return CurrentObject; } set { CurrentObject = value; } }
 
 >>>>>>> Inclded instantiation of Pawns
+=======
+>>>>>>> Included new IDLE state in which the player can now select a spot
     public void SetColorOfTile(bool isBlack)
     {
         if (isBlack)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             GameRenderer.material.color = Color.gray;
 =======
             GameRenderer.material = BlackMat;
 >>>>>>> Included Instantiation of the board
+=======
+            GameRenderer.material.color = Color.gray;
+>>>>>>> Included new IDLE state in which the player can now select a spot
         }
         else
         {

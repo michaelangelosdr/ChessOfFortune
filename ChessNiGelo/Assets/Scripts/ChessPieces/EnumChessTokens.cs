@@ -14,8 +14,8 @@
 =======
     PAWN,
     ROOK,
-    HORSE,
     BISHOP,
+    HORSE,
     QUEEN,
     KING
 >>>>>>> Inclded instantiation of Pawns

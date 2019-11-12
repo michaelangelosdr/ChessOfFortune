@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Managers_Controllers;
 
 public class BishopToken : ChessToken
 {
   
 =======
+=======
+using Managers_Controllers;
+>>>>>>> Included new IDLE state in which the player can now select a spot
 
-public class BishopToken : MonoBehaviour
+public class BishopToken : ChessToken
 {
+<<<<<<< HEAD
     // Start is called before the first frame update
     void Start()
     {
@@ -23,4 +28,7 @@ public class BishopToken : MonoBehaviour
         
     }
 >>>>>>> Inclded instantiation of Pawns
+=======
+  
+>>>>>>> Included new IDLE state in which the player can now select a spot
 }

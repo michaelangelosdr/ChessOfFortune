@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.Linq;
 
 namespace Managers_Controllers
@@ -89,6 +90,9 @@ namespace Managers_Controllers
 
     }
 =======
+=======
+using System.Linq;
+>>>>>>> Included new IDLE state in which the player can now select a spot
 
 namespace Managers_Controllers
 {
@@ -105,6 +109,8 @@ namespace Managers_Controllers
         [SerializeField]
         List<Tile> TilesPrefab;
 
+       public Dictionary<Point, ChessTile> GameGrid;
+
         [SerializeField]
         TextMesh BoardText;
 
@@ -114,6 +120,7 @@ namespace Managers_Controllers
 
         public void Init()
         {
+            GameGrid = new Dictionary<Point, ChessTile>();
             CreateBoard(btype);
         }
 
@@ -136,11 +143,20 @@ namespace Managers_Controllers
                 for (int col = 0; col < boardSize; col++)
                 {
                     ChessTile chessTile = Instantiate(TilesPrefab[(int)btype], this.transform) as ChessTile;
+                    Point p = new Point(row, col);
+                    chessTile.Position = p;                    
+                    GameGrid.Add(p, chessTile);
 
                     chessTile.SetColorOfTile(isBlack);
                     isBlack = !isBlack;
                     chessTile.Set_StringID((alphabet[row] + (col + 1).ToString()).ToString());
                     chessTile.SetTilePosition(new Vector3(row, 0, col));
+
+
+                    /*TextMesh testing = Instantiate(BoardText, this.transform);
+                    testing.text = row.ToString() + "," + col.ToString();
+                    testing.transform.localPosition = new Vector3(row, 0, col);*/
+
                 }
 
                 TextMesh Atext = Instantiate(BoardText, TextHolder.transform);
@@ -154,6 +170,11 @@ namespace Managers_Controllers
                 isBlack = !isBlack;
             }
 
+        }
+
+        public Tile GetPosition(Point p)
+        {
+            return TilesPrefab.Find(x => x.Position == p);
         }
 
     }

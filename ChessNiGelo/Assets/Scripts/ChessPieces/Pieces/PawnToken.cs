@@ -7,6 +7,7 @@ public class PawnToken : ChessToken
 {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     
 =======
     [SerializeField]
@@ -25,6 +26,9 @@ public class PawnToken : ChessToken
         }
     }
 >>>>>>> Inclded instantiation of Pawns
+=======
+    
+>>>>>>> Included new IDLE state in which the player can now select a spot
 
     public override void Move()
     {

@@ -1,6 +1,9 @@
 ﻿public enum States
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Included new IDLE state in which the player can now select a spot
     //BOARD_GAME CHECK // Checks which game to be played
     BOARD_INITIALIZIATION_STATE =0, //Create board
     BOARD_SETUP_STATE = 1, //Instantiate Stuff on the board 
@@ -10,6 +13,7 @@
     MID_ROUND_CALCULATIONS_STATE =5, // Check if player wins here 
     
     //AI States
+<<<<<<< HEAD
 
     
 =======
@@ -17,4 +21,8 @@
     BOARD_SETUP_STATE = 1,
 
 >>>>>>> Inclded instantiation of Pawns
+=======
+
+    
+>>>>>>> Included new IDLE state in which the player can now select a spot
 }

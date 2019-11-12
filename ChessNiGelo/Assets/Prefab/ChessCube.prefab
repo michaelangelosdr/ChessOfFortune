@@ -14,10 +14,14 @@ GameObject:
   - component: {fileID: 7740584238867205383}
   - component: {fileID: 7740584238867205379}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Layer: 8
 =======
   m_Layer: 0
 >>>>>>> Included Instantiation of the board
+=======
+  m_Layer: 8
+>>>>>>> Included new IDLE state in which the player can now select a spot
   m_Name: ChessCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,6 +116,10 @@ MonoBehaviour:
   WhiteMat: {fileID: 2100000, guid: 822658b939ada454dace8b695f7bee17, type: 2}
   GameRenderer: {fileID: 7740584238867205380}
 <<<<<<< HEAD
+<<<<<<< HEAD
   currentToken: {fileID: 0}
 =======
 >>>>>>> Included Instantiation of the board
+=======
+  currentToken: {fileID: 0}
+>>>>>>> Included new IDLE state in which the player can now select a spot
